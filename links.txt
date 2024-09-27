@@ -1,0 +1,114 @@
+// 1. Arrays
+// Documentation/Tutorials
+// GeeksForGeeks Array Basics: https://www.geeksforgeeks.org/array-data-structure/
+// Sliding Window Technique: https://www.geeksforgeeks.org/window-sliding-technique/
+// Kadane’s Algorithm: https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+// Practice Problems:
+// HackerRank: Arrays - DS: https://www.hackerrank.com/challenges/arrays-ds/problem
+// LeetCode: Two Sum: https://leetcode.com/problems/two-sum/
+
+// 2. Strings
+// Documentation/Tutorials
+// GeeksForGeeks String Basics: https://www.geeksforgeeks.org/string-data-structure/
+// KMP Algorithm: https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
+
+// Practice Problems:
+// HackerRank: Strong Password: https://www.hackerrank.com/challenges/strong-password/problem
+// LeetCode: Longest Palindromic Substring: https://leetcode.com/problems/longest-palindromic-substring/
+
+// 3. Linked Lists
+// Documentation/Tutorials
+// GeeksForGeeks Linked List Basics: https://www.geeksforgeeks.org/data-structures/linked-list/
+
+// Practice Problems:
+// HackerRank: Insert a Node at the Tail: https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem
+// LeetCode: Linked List Cycle: https://leetcode.com/problems/linked-list-cycle/
+
+// 4. Stacks and Queues
+// Documentation/Tutorials
+// GeeksForGeeks Stack and Queue: https://www.geeksforgeeks.org/stack-data-structure/
+
+// Practice Problems:
+// HackerRank: Balanced Brackets: https://www.hackerrank.com/challenges/balanced-brackets/problem
+// LeetCode: Valid Parentheses: https://leetcode.com/problems/valid-parentheses/
+
+// 5. Hashing and Hash Maps
+// Documentation/Tutorials
+// GeeksForGeeks Hashing: https://www.geeksforgeeks.org/hashing-data-structure/
+
+// Practice Problems:
+// HackerRank: Frequency Queries: https://www.hackerrank.com/challenges/frequency-queries/problem
+// LeetCode: Group Anagrams: https://leetcode.com/problems/group-anagrams/
+
+// 6. Recursion
+// Documentation/Tutorials
+// GeeksForGeeks Recursion: https://www.geeksforgeeks.org/recursion/
+
+// Practice Problems:
+// HackerRank: The Power Sum: https://www.hackerrank.com/challenges/the-power-sum/problem
+// LeetCode: Reverse Linked List: https://leetcode.com/problems/reverse-linked-list/
+
+// 7. Sorting Algorithms
+// Documentation/Tutorials
+// GeeksForGeeks Sorting: https://www.geeksforgeeks.org/sorting-algorithms/
+
+// Practice Problems:
+// HackerRank: Big Sorting: https://www.hackerrank.com/challenges/big-sorting/problem
+// LeetCode: Sort Colors: https://leetcode.com/problems/sort-colors/
+
+// 8. Searching Algorithms
+// Documentation/Tutorials
+// GeeksForGeeks Searching: https://www.geeksforgeeks.org/searching-algorithms/
+
+// Practice Problems:
+// HackerRank: Sherlock and Array: https://www.hackerrank.com/challenges/sherlock-and-array/problem
+// LeetCode: Binary Search: https://leetcode.com/problems/binary-search/
+
+// 9. Binary Trees and Binary Search Trees
+// Documentation/Tutorials
+// GeeksForGeeks Binary Trees: https://www.geeksforgeeks.org/binary-tree-data-structure/
+
+// Practice Problems:
+// HackerRank: Tree: Preorder Traversal: https://www.hackerrank.com/challenges/tree-preorder-traversal/problem
+// LeetCode: Lowest Common Ancestor of a Binary Search Tree: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+// 10. Graphs
+// Documentation/Tutorials
+// GeeksForGeeks Graph Basics: https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+
+// Practice Problems:
+// HackerRank: BFS: Shortest Reach in a Graph: https://www.hackerrank.com/challenges/bfsshortreach/problem
+// LeetCode: Number of Islands: https://leetcode.com/problems/number-of-islands/
+
+
+// SQL (From Beginner to Advanced)
+
+// Beginner Level
+// SQL Basics: https://www.w3schools.com/sql/sql_intro.asp
+// SQL Joins Explained: https://www.w3schools.com/sql/sql_join.asp
+// GeeksForGeeks SQL Basics: https://www.geeksforgeeks.org/sql-tutorial/
+// SQLBolt (Interactive SQL Lessons): https://sqlbolt.com/
+
+// Practice Problems:
+// HackerRank: Basic Select: https://www.hackerrank.com/domains/tutorials/10-days-of-sql
+// LeetCode: SQL Easy Problems: https://leetcode.com/problemset/database/
+
+// Intermediate Level
+// SQL Functions (Aggregate Functions): https://www.w3schools.com/sql/sql_functions.asp
+// SQL Subqueries: https://www.w3schools.com/sql/sql_subqueries.asp
+// SQL Window Functions: https://www.geeksforgeeks.org/sql-window-functions/
+
+// Practice Problems:
+// HackerRank: Aggregation Functions: https://www.hackerrank.com/domains/sql/aggregations
+// LeetCode: SQL Medium Problems: https://leetcode.com/problemset/database/?difficulty=MEDIUM
+
+// Advanced Level
+// SQL Procedural Language (PL/SQL): https://www.oracle.com/database/technologies/appdev/plsql.html
+// SQL Complex Joins: https://www.geeksforgeeks.org/sql-joins-set-1-inner-left-right-and-full-joins/
+// SQL Stored Procedures and Functions: https://www.geeksforgeeks.org/sql-stored-procedures/
+// Indexing in SQL: https://www.geeksforgeeks.org/indexing-in-databases-set-1/
+
+// Practice Problems:
+// HackerRank: Advanced Join Queries: https://www.hackerrank.com/domains/sql/advanced-join
+// LeetCode: SQL Hard Problems: https://leetcode.com/problemset/database/?difficulty=HARD
