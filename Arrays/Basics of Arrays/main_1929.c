@@ -1,7 +1,7 @@
 #include "main.h"
 
 // Function prototype
-int *getConcatenation(int *nums, int numsSize, int *returnSize);
+// int *getConcatenation(int *nums, int numsSize, int *returnSize);
 
 int main()
 {
@@ -24,25 +24,4 @@ int main()
     free(result);
 
     return 0;
-}
-
-// Function definition
-int *getConcatenation(int *nums, int numsSize, int *returnSize)
-{
-    *returnSize = numsSize * 2;
-    int j = 0;
-    int *returnArr = malloc(*returnSize * sizeof(int));
-    for (int i = 0; i < *returnSize; i++)
-    {
-        if (i >= numsSize)
-        {
-            returnArr[i] = nums[j];
-            j++;
-        }
-        else
-        {
-            returnArr[i] = nums[i];
-        }
-    }
-    return returnArr;
 }
