@@ -10,6 +10,9 @@
  * you want to create an array ans of length 2n where
  * ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n.
  *
+ * Note: The returned array must be malloced, assume caller calls free().te an array ans of length 2n where
+ * ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n.
+ *
  * Note: The returned array must be malloced, assume caller calls free().
  */
 int *getConcatenation(int *nums, int numsSize, int *returnSize)
