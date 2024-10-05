@@ -48,8 +48,8 @@ int *arrayRankTransform(int *arr, int arrSize, int *returnSize)
 		*returnSize = 0;
 		return (NULL);
 	}
+
 	int *ranks = malloc(arrSize * sizeof(int));
-	int *rankings = malloc(arrSize * sizeof(int));
 	int *arrCopy = malloc(arrSize * sizeof(int));
 
 	if (!ranks || !arrCopy)
@@ -58,30 +58,40 @@ int *arrayRankTransform(int *arr, int arrSize, int *returnSize)
 		free(arrCopy);
 		return (NULL);
 	}
+
 	*returnSize = arrSize;
 	arr_copy(arr, arrSize, arrCopy);
 	qsort(arrCopy, arrSize, sizeof(int), compare);
+
 	/* // Create rank_map (dynamic mapping using qsort on sorted unique values) */
 	int rank = 1;
+
 	/* // Assign ranks using sorted array */
 	ranks[0] = rank; /* // The first element always gets rank 1 */
+
 	for (int i = 1; i < arrSize; i++)
 	{
-		(arrCopy[i] != arrCopy[i - 1]) ? rank += 1 : rank;
+		if (arrCopy[i] != arrCopy[i - 1])
+		{
+			rank++;
+		}
+
 		ranks[i] = rank;
 	}
+
+	/* Create final ranks map for the original array using binary search */
 	for (int i = 0; i < arrSize; i++)
 	{
 		int *pos = (int *)bsearch(&arr[i], arrCopy, arrSize, sizeof(int), compare);
 
 		if (pos != NULL)
 		{
-			int index = (pos -
-						 arrCopy);		/* // Find index of the element in the sorted array */
-			rankings[i] = ranks[index]; /* // Map the original value to its rank */
+			int index = pos - arrCopy; /* // Find index of the element in the sorted array */
+			arr[i] = ranks[index];	   /* // Map the original value to its rank */
 		}
 	}
+
 	free(arrCopy);
 	free(ranks);
-	return (rankings); /* // The original array is now transformed into the ranks */
+	return (arr); /* // The original array is now transformed into the ranks */
 }
