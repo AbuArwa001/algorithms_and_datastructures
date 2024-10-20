@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * Function to find two numbers in an array that add up to a specific target.
  *
@@ -25,7 +27,7 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize)
             {
                 indices[0] = i;
                 indices[1] = j;
-                return indices; // Return immediately after finding the result
+                return indices; /* Return immediately after finding the result*/
             }
         }
         i++;
@@ -33,5 +35,5 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize)
 
     // In case no solution is found, return NULL
     free(indices);
-    return NULL;
+    return (NULL);
 }
