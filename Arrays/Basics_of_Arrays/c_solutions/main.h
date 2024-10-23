@@ -19,4 +19,5 @@ int *arrayRankTransform(int *arr, int arrSize, int *returnSize);
  * The function allocates memory for the returned array, which should be freed by the caller.
  */
 int *twoSum(int *nums, int numsSize, int target, int *returnSize);
+void merge(int *nums1, int nums1Size, int m, int *nums2, int nums2Size, int n);
 #endif /*MAIN_H*/
