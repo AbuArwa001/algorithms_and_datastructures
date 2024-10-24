@@ -1,6 +1,6 @@
 SELECT
     us.product_id,
-    ROUND(SUM(us.units * P.price) / SUM(us.units), 2) AS average_price
+    ROUND(COALESCE(SUM(us.units * p.price) / SUM(us.units), 0), 2) AS 
 FROM
     UnitsSold us
 LEFT JOIN
