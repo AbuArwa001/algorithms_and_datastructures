@@ -20,4 +20,26 @@ int *arrayRankTransform(int *arr, int arrSize, int *returnSize);
  */
 int *twoSum(int *nums, int numsSize, int target, int *returnSize);
 void merge(int *nums1, int nums1Size, int m, int *nums2, int nums2Size, int n);
+/**
+ * islandPerimeter - Calculates the perimeter of an island in a 2D grid.
+ * @grid: 2D array representing the grid.
+ * @gridSize: Number of rows in the grid.
+ * @gridColSize: Pointer to the number of columns in the grid.
+ *
+ * Description: This function iterates through the grid and calculates the
+ * perimeter by checking the boundaries and adjacent cells of each land cell.
+ *
+ * Return: The perimeter of the island.
+ *
+ * Example:
+ * Given the following grid:
+ * [
+ *     [0,1,0,0],
+ *     [1,1,1,0],
+ *     [0,1,0,0],
+ *     [1,1,0,0]
+ * ]
+ * The function will return 16 as
+ */
+int islandPerimeter(int **grid, int gridSize, int *gridColSize);
 #endif /*MAIN_H*/
