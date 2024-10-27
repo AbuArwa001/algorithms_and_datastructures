@@ -1,5 +1,13 @@
 #include "main.h"
-
+/**
+ * find_median_sorted_arrays - Finds the median of two sorted arrays.
+ * @nums1: Pointer to the first sorted array.
+ * @nums1_size: Size of the first sorted array.
+ * @nums2: Pointer to the second sorted array.
+ * @nums2_size: Size of the second sorted array.
+ *
+ * Return: The median of the two sorted arrays.
+ */
 double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2,
                               int nums2Size)
 {
