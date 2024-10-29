@@ -6,26 +6,31 @@ I will update this repository regularly as I go through the following topics and
 
 ## Table of Contents
 
-1. [Arrays](#arrays)
-2. [Strings](#strings)
-3. [Linked Lists](#linked-lists)
-4. [Stacks and Queues](#stacks-and-queues)
-5. [Hashing and Hash Maps](#hashing-and-hash-maps)
-6. [Recursion](#recursion)
-7. [Sorting Algorithms](#sorting-algorithms)
-8. [Searching Algorithms](#searching-algorithms)
-9. [Binary Trees and Binary Search Trees](#binary-trees-and-binary-search-trees)
-10. [Graphs](#graphs)
-11. [Greedy Algorithms](#greedy-algorithms)
-12. [Dynamic Programming](#dynamic-programming)
-13. [Backtracking](#backtracking)
-14. [Bit Manipulation](#bit-manipulation)
-15. [Math and Number Theory](#math-and-number-theory)
+- [Algorithms and Data Structures Mastery](#algorithms-and-data-structures-mastery)
+  - [Table of Contents](#table-of-contents)
+  - [Progress](#progress)
+  - [Step-by-Step Learning Path](#step-by-step-learning-path)
+    - [Arrays](#arrays)
+    - [Strings](#strings)
+    - [Linked Lists](#linked-lists)
+    - [Stacks and Queues](#stacks-and-queues)
+    - [Hashing and Hash Maps](#hashing-and-hash-maps)
+    - [Recursion](#recursion)
+    - [Sorting Algorithms](#sorting-algorithms)
+    - [Searching Algorithms](#searching-algorithms)
+    - [Binary Trees and Binary Search Trees](#binary-trees-and-binary-search-trees)
+    - [Graphs](#graphs)
+    - [Greedy Algorithms](#greedy-algorithms)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Backtracking](#backtracking)
+    - [Bit Manipulation](#bit-manipulation)
+    - [Math and Number Theory](#math-and-number-theory)
+  - [How to Use This Repo](#how-to-use-this-repo)
 
 ## Progress
 
 - [x] Setup repository
-- [ ] Complete Arrays
+- [x] Complete Arrays
 - [ ] Complete Strings
 - [ ] Complete Linked Lists
 - [ ] Complete Stacks and Queues
