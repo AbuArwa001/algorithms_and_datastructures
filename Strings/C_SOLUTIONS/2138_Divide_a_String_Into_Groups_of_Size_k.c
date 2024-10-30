@@ -1,31 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * strSize - Calculate the size of a string.
+ * @s: The input string.
+ *
+ * Return: The size of the string, or 0 if the string is NULL.
+ */
 int strSize(char *s)
 {
     if (!s)
-        return 0;
-    return strlen(s);
+        return (0);
+    return (strlen(s));
 }
 
 /**
- * Note: The returned array must be malloced, assume caller calls free().
- *  s = "abcdefghij", k = 3, fill = 'x'
+ * divideString - Divide a string into groups of size k.
+ * @s: The input string.
+ * @k: The size of each group.
+ * @fill: The character to fill the last group if it is not complete.
+ * @returnSize: Pointer to an integer where the size of the returned array will be stored.
+ *
+ * Return: A pointer to an array of strings, where each string is a group of size k.
+ *         The returned array must be freed by the caller.
  */
 char **divideString(char *s, int k, char fill, int *returnSize)
 {
     int arrSize = strSize(s);
-    *returnSize = (arrSize + k - 1) / k; // Calculate the number of subarrays needed
+    int i, j, l;
+    char **arrStr;
 
-    char **arrStr = malloc(*returnSize * sizeof(char *));
-    for (int j = 0; j < *returnSize; j++)
+    *returnSize = (arrSize + k - 1) / k; /* Calculate the number of subarrays needed */
+
+    arrStr = malloc(*returnSize * sizeof(char *));
+    if (!arrStr)
+        return (NULL);
+
+    for (j = 0; j < *returnSize; j++)
     {
-        arrStr[j] = malloc((k + 1) * sizeof(char)); // Allocate k + 1 for null terminator
+        arrStr[j] = malloc((k + 1) * sizeof(char)); /* Allocate k + 1 for null terminator */
+        if (!arrStr[j])
+        {
+            while (j--)
+                free(arrStr[j]);
+            free(arrStr);
+            return (NULL);
+        }
     }
 
-    int i = 0, j = 0, l = 0;
+    i = 0;
+    j = 0;
+    l = 0;
     for (i = 0; i < arrSize; i++)
     {
         if (l == k)
         {
-            arrStr[j][l] = '\0'; // Null-terminate the current substring
+            arrStr[j][l] = '\0'; /* Null-terminate the current substring */
             l = 0;
             j++;
         }
@@ -33,13 +64,13 @@ char **divideString(char *s, int k, char fill, int *returnSize)
         l++;
     }
 
-    // Fill the rest of the last substring with the fill character if needed
+    /* Fill the rest of the last substring with the fill character if needed */
     while (l < k)
     {
         arrStr[j][l] = fill;
         l++;
     }
-    arrStr[j][l] = '\0'; // Null-terminate the last substring
+    arrStr[j][l] = '\0'; /* Null-terminate the last substring */
 
-    return arrStr;
+    return (arrStr);
 }
