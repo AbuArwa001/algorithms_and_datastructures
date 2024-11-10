@@ -31,7 +31,7 @@ I will update this repository regularly as I go through the following topics and
 
 - [x] Setup repository
 - [x] Complete Arrays
-- [ ] Complete Strings
+- [x] Complete Strings
 - [ ] Complete Linked Lists
 - [ ] Complete Stacks and Queues
 - [ ] Complete Hashing and Hash Maps
